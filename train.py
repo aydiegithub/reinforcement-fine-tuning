@@ -1,8 +1,10 @@
 import os
 from datasets import load_dataset
 from colorama import Fore
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
+
+HUGGING_FACE_ACCESS_TOKEN = os.getenv("HUGGING_FACE_ACCESS_TOKEN")
 
 dataset = load_dataset("data", split="train")
 print(Fore.YELLOW + str(dataset[2]) + Fore.RESET)
@@ -37,10 +39,11 @@ def format_chat_template(batch, tokenizer):
     }
 
 
-base_model = "tiiuae/falcon-rw-1b" 
+base_model = "meta-llama/Llama-3.2-1B" 
 tokenizer = AutoTokenizer.from_pretrained(
     base_model,
-    trust_remote_code=True
+    trust_remote_code=True,
+    use_auth_token=HUGGING_FACE_ACCESS_TOKEN
 )
 
 
@@ -52,3 +55,13 @@ train_dataset = dataset.map(
 )
 
 print(Fore.LIGHTMAGENTA_EX + str(train_dataset[0]) + Fore.RESET)
+
+model = AutoModelForCausalLM.from_pretrained(
+    base_model,
+    device_map="auto",
+    token=HUGGING_FACE_ACCESS_TOKEN,
+    cache_dir="./workspace",
+)
+
+print(Fore.CYAN + str(model) + Fore.RESET)
+print(Fore.LIGHTMAGENTA_EX + str(next(model.parameters()).device))
