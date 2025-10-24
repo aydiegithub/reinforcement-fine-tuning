@@ -221,4 +221,5 @@ env/
 =======
 >>>>>>> 6d014ba4b05c9242645517a00201742db26f91f5
 .DS_Store
-.DS_Store
+.DS_Store.env
+__pycache__/
