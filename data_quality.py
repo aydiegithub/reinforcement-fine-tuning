@@ -16,14 +16,30 @@ class Rank(BaseModel):
     style: Score
     
 def llm_call(record: str) -> dict:
+    
+    prompt = f"""
+                You are an expert evaluator. Classify this instruction tuning record on **accuracy** and **style**, each on a scale from 1-10.  
+                Provide concise explanations for both. The response must be self-contained and in JSON format matching the Rank schema.
+
+                Scoring Guidelines:
+                - Accuracy:
+                - 0 if the record is not a question.
+                - 1 if the answer does not adequately address the question.
+                - Higher scores indicate correctness and relevance.
+                - Style:
+                - 1 if the question or answer is harmful, misleading, dishonest, or blank ("..." or empty).
+                - Higher scores indicate clarity, helpfulness, and readability.
+
+                Record: {record}
+                Return only JSON output.
+            """
+            
     stream = completion(
         model=MODEL,
         messages=[
             {
                 "role": "user",
-                "content": f"""Classify this instruction tuning record between 1-10 in terms of accuracy and style, provide explanations as to your reasoning. The answer should be completely self contained. 
-                                If the question is not in fact a question it should receive 0 for accuracy. If the answer does not adequately answer the question it should receive 1 for accuracy. If the question 
-                                or answer are in any way harmful, not helpful or not honest it should be classified as 1 for style. If the question or answer are blank or ..., return 1 for both. \n\n Record: {record} Return as JSON""",
+                "content": prompt
             }
         ], 
         stream=True,
@@ -47,14 +63,14 @@ if __name__ == "__main__":
     
     quality = []
     instructions = []
-    with open('data/instruction.json', r) as f:
+    with open('data/instruction.json', 'r') as f:
         data = json.load(f)
         for pair in data:
             print(Fore.YELLOW + str(pair) + Fore.RESET)
             result = llm_call(pair)
             
             if result['accuracy']['score'] >= 6 and result['style']['score'] >= 6:
-                instructions.append()
+                instructions.append(pair)
                 quality.append({**pair, 'quality': result})
                 
             
