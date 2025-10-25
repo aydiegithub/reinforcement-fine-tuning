@@ -1,0 +1,2 @@
+adapter-checkpoints/** filter=lfs diff=lfs merge=lfs -text
+fine-tuned/** filter=lfs diff=lfs merge=lfs -text

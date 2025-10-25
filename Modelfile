@@ -1,0 +1,3 @@
+FROM qwen2.5:0.5b
+ADAPTER /Users/poppinadityagmail.com/Developer/GitHub_Codes/rft-llm/adapter_chekcpoints/sft_1
+
