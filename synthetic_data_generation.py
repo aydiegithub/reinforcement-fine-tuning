@@ -20,7 +20,7 @@ class Response(BaseModel):
     
 def llm_call(data: str, num_records: int = 5) -> dict:
     stream = completion(
-        model="ollama_chat/llama3.2:1b",
+        model="ollama_chat/gpt-oss",
         messages=[
             {
                 "role": "user", 

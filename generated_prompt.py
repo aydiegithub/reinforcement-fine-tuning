@@ -41,5 +41,53 @@ def prompt_template(data: str, num_records: int = 5) -> str:
     """
 
 
+# def prompt_template(data: str, num_records: int = 5) -> str:
+#     return f"""
+# You are an expert data curator assisting a machine learning engineer in creating a high-quality instruction tuning dataset.
+
+# Your task:
+# - Read the provided text chunk below.
+# - Create exactly {num_records} diverse and high-quality question–answer (Q&A) pairs based strictly on the content.
+# - Each Q&A pair must be concise, factual, and relevant to the given text.
+
+# Formatting rules:
+# 1. Output **only valid JSON**, nothing else.
+# 2. The JSON must follow this structure exactly:
+
+# {{
+#   "generated": [
+#     {{
+#       "question": "string",
+#       "answer": "string"
+#     }},
+#     ...
+#   ]
+# }}
+
+# 3. Do NOT include explanations, comments, markdown, or text before or after the JSON.
+# 4. Ensure answers are factual, neutral, and based only on the input text.
+
+# Example of the correct format:
+# {{
+#   "generated": [
+#     {{
+#       "question": "What is the primary purpose of this dataset?",
+#       "answer": "This dataset is used for fine-tuning a language model."
+#     }},
+#     {{
+#       "question": "How can this data be applied?",
+#       "answer": "It can be used for supervised fine-tuning of machine learning models."
+#     }}
+#   ]
+# }}
+
+# Now, generate the output in the exact JSON format above based only on the following text:
+
+# ---
+# {data}
+# ---
+# """
+
+
 if __name__ == "__main__":
     print(prompt_template("Aydie's Prompt", 10))

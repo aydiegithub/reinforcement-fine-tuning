@@ -9,7 +9,8 @@ with open('tm1data.json', 'r') as f:
         for pairs in chunk['generated']:
             question, answer = pairs['question'], pairs['answer']
             context_pair = {
-                'question': f"Context:{chunk['context']}. {pairs['question']}",
+                # 'question': f"Context:{chunk['context']}. {pairs['question']}",
+                'question': f"{pairs['question']}",
                 'answer': pairs['answer']
             }
             instructions.append(context_pair)
