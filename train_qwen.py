@@ -83,7 +83,7 @@ def main():
 
     print("Model loaded!")
     print(f"Device: {next(model.parameters()).device}")
-    print(f"Model: 0.5B Qwen2.5")
+    print(f"Model: {BASE_MODEL}")
 
     print("Preparing model for training...")
     model.gradient_checkpointing_enable()
