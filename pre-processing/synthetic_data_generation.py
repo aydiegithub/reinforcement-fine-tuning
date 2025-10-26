@@ -8,7 +8,7 @@ import json
 from typing import List
 from pydantic import BaseModel
 from litellm import completion
-from generated_prompt import prompt_template
+from prompts.generated_prompt import prompt_template
 from tqdm.auto import tqdm
 
 class Record(BaseModel):
@@ -76,18 +76,3 @@ if __name__ == "__main__":
     main()
     print("/n/n")
     print(Fore.RED + f"Total Execution Time: {round(time.time() - st, 3)} s")
-    
-    # example_data_chunk = """Nikola Tesla[a] (10 July 1856 – 7 January 1943) was a Serbian-American engineer, 
-    # futurist, and inventor. He is known for his contributions to the design of the modern alternating current (AC) 
-    # electricity supply system.[2] 
-    
-    # Born and raised in the Austrian Empire, Tesla first studied engineering and physics 
-    # in the 1870s without receiving a degree. He then gained practical experience in the early 1880s working in telephony 
-    # and at Continental Edison in the new electric power industry. In 1884, he immigrated to the United States, where he became 
-    # a naturalized citizen. He worked for a short time at the Edison Machine Works in New York City before he struck out on his own. 
-    # With the help of partners to finance and market his ideas, Tesla set up laboratories and companies in New York to develop a 
-    # range of electrical and mechanical devices. His AC induction motor and related polyphase AC patents, licensed by Westinghouse 
-    # Electric in 1888, earned him a considerable amount of money and became the cornerstone of the polyphase system, which that 
-    # company eventually marketed.
-    # """
-    # llm_call(example_data_chunk)
