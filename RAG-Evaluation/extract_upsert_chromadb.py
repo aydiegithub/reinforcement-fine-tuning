@@ -21,7 +21,7 @@ class PDFEmbedder:
         db_path: str = "./chromadb_storage",
         chunk_size: int = 1500,
         chunk_overlap: int = 400,
-        embedding_model: str = "qwen3-embedding:4b",
+        embedding_model: str = "embeddinggemma:300m",
         ollama_base_url: str = "http://localhost:11434",
         clear_db: bool = False
     ):
@@ -302,41 +302,41 @@ def main():
     pdf_path = "documents/tm1_dg_dvlpr-10pages.pdf"
     
     if not os.path.exists(pdf_path):
-        # print(Fore.RED + f"[ERROR] PDF file not found: {pdf_path}" + Fore.RESET)
+        print(Fore.RED + f"[ERROR] PDF file not found: {pdf_path}" + Fore.RESET)
         return 
     
-    # print(Fore.MAGENTA + "=" * 80 + Fore.RESET)
-    # print(Fore.MAGENTA + "Initializing PDF Embedder" + Fore.RESET)
-    # print(Fore.MAGENTA + "=" * 80 + Fore.RESET)
+    print(Fore.MAGENTA + "=" * 80 + Fore.RESET)
+    print(Fore.MAGENTA + "Initializing PDF Embedder" + Fore.RESET)
+    print(Fore.MAGENTA + "=" * 80 + Fore.RESET)
     
     embedder = PDFEmbedder(
         pdf_path=pdf_path,
         db_path="./chromadb_storage",
         chunk_size=1500,
         chunk_overlap=400,
-        embedding_model="qwen3-embedding:4b",
+        embedding_model="embeddinggemma:300m",
         clear_db=True
     )
     
     embedder.process_and_embed()
     
-    execution_time = round(time.time() - start_time, 3)
+    # execution_time = round(time.time() - start_time, 3)
     # print(Fore.YELLOW + f"Total Execution Time: {execution_time}s" + Fore.RESET)
     
     # print(Fore.MAGENTA + "=" * 80 + Fore.RESET)
     # print(Fore.CYAN + "Testing Query Functionality" + Fore.RESET)
     # print(Fore.MAGENTA + "=" * 80 + Fore.RESET)
     
-    test_queries = [
-        "What is the main topic of this document?",
-        "Tell me about the key concepts covered",
-        "What are the important details"
-    ]
+    # test_queries = [
+    #     "What is the main topic of this document?",
+    #     "Tell me about the key concepts covered",
+    #     "What are the important details"
+    # ]
     
-    for test_query in test_queries:
-        results = embedder.query_similar(test_query, n_results=3)
-        # print()
+    # for test_query in test_queries:
+    #     results = embedder.query_similar(test_query, n_results=3)
+    #     print()
 
 
-# if __name__ == "__main__":
-#     main() 
+if __name__ == "__main__":
+    main() 

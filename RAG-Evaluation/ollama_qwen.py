@@ -55,14 +55,14 @@ class OllamaFineTunedQwenChat:
         """
         try:
             if context:
-                formatted_prompt = f"""You are a factual, concise answering assistant. Think step-by-step before answering.
-                                    Before Answering refer the context, think and answer. Dont repeat the question.
-                                    ### IF YOU DON'T KNOW THE ANSWER RESPOND "I don't know"
-
+                formatted_prompt = f"""
+                You are a factual, concise answering assistant. Think step-by-step before answering. Dont repeat the question.
+                                    ### IF YOU DON'T KNOW THE ANSWER RESPOND "I don't know". Refer the context for more knowladge and answer according to context.
+                                    
                                     Context: {context}
-
+                                    
                                     Question: {prompt}
-                                    """
+                """
             else:
                 formatted_prompt = f"""You are a factual, concise answering assistant. Think step-by-step before answering. Dont repeat the question.
                                     ### IF YOU DON'T KNOW THE ANSWER RESPOND "I don't know"

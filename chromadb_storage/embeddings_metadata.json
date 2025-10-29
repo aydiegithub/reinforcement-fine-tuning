@@ -1,10 +1,10 @@
 {
   "document_metadata": {
     "source_file": "documents/tm1_dg_dvlpr-10pages.pdf",
-    "processed_at": "2025-10-26T21:31:27.460064",
+    "processed_at": "2025-10-29T11:46:44.489217",
     "chunk_size": 1500,
     "chunk_overlap": 400,
-    "embedding_model": "qwen3-embedding:4b",
+    "embedding_model": "embeddinggemma:300m",
     "total_chunks": 75
   },
   "chunks": [
@@ -12,7 +12,7 @@
       "chunk_id": "chunk_00001",
       "chunk_index": 1,
       "text_preview": "IBM Planning Analytics Version 11 Release 0 ## TM1 for Developers <!-- image --> ## Note Before you use this information and the product it supports, read the information in Notices. ## Product Inform",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 1,
@@ -20,16 +20,16 @@
         "start_word": 0,
         "end_word": 1500,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:31:39.970081"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:45.821487"
       }
     },
     {
       "chunk_id": "chunk_00002",
       "chunk_index": 2,
       "text_preview": "Security Rights for Dimensions...............................................................................................................103 | | | Reserving and Releasing Dimensions...............",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 2,
@@ -37,16 +37,16 @@
         "start_word": 1100,
         "end_word": 2600,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:31:49.889018"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:46.211833"
       }
     },
     {
       "chunk_id": "chunk_00003",
       "chunk_index": 3,
       "text_preview": "contain fictional data manually or machine generated, factual data compiled from academic or public sources, or data used with permission of the copyright holder, for use as sample data to develop sam",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 3,
@@ -54,16 +54,16 @@
         "start_word": 2200,
         "end_word": 3700,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:31:54.117594"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:46.503188"
       }
     },
     {
       "chunk_id": "chunk_00004",
       "chunk_index": 4,
       "text_preview": "the object becomes hidden if the Display Control Objects parameter is turned off. ## Element names and MDX expressions Do not use + or - as the first character of an element name. Although only the fi",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 4,
@@ -71,16 +71,16 @@
         "start_word": 3300,
         "end_word": 4800,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:31:58.581549"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:46.808473"
       }
     },
     {
       "chunk_id": "chunk_00005",
       "chunk_index": 5,
       "text_preview": "Five-dimensional cube for the accounts above the Gross Profit line - Four-dimensional cube for the accounts below the Gross Profit line ## Five-dimensional Cube The following diagram represents the di",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 5,
@@ -88,16 +88,16 @@
         "start_word": 4400,
         "end_word": 5900,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:03.417703"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:47.133089"
       }
     },
     {
       "chunk_id": "chunk_00006",
       "chunk_index": 6,
       "text_preview": "string elements that occur in any dimension other than the last one as numeric elements. The typical use for string elements is in a two-dimensional cube that converts codes in an input file to formal",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 6,
@@ -105,16 +105,16 @@
         "start_word": 5500,
         "end_word": 7000,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:08.132244"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:47.448127"
       }
     },
     {
       "chunk_id": "chunk_00007",
       "chunk_index": 7,
       "text_preview": "red models often outsell the other color models. If you create one element per car and another dimension with elements for each color, you can use TM1 to track car sales by color. If you combine sales",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 7,
@@ -122,16 +122,16 @@
         "start_word": 6600,
         "end_word": 8100,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:12.536434"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:47.743870"
       }
     },
     {
       "chunk_id": "chunk_00008",
       "chunk_index": 8,
       "text_preview": "weight is 1. 5. Click Add . 6. Repeat steps 3 through 5 for each child you want to add. 7. Click OK . TM1 adds the new elements as children of the element you selected in step 1. ## Rearranging the Di",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 8,
@@ -139,16 +139,16 @@
         "start_word": 7700,
         "end_word": 9200,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:16.797728"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:48.031794"
       }
     },
     {
       "chunk_id": "chunk_00009",
       "chunk_index": 9,
       "text_preview": "was active when the element order was set appear with shaded icons. - The first subset element maintains its position in the dimension relative to its nearest predecessor . - In the example, element d",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 9,
@@ -156,16 +156,16 @@
         "start_word": 8800,
         "end_word": 10300,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:21.222953"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:48.330705"
       }
     },
     {
       "chunk_id": "chunk_00010",
       "chunk_index": 10,
       "text_preview": "differ from that in the .xdi file. - To ensure that TM1 has access to all of your dimension changes, create and maintain dimensions with dimension worksheets or the Dimension Editor. Do not mix method",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 10,
@@ -173,16 +173,16 @@
         "start_word": 9900,
         "end_word": 11400,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:25.813267"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:48.637444"
       }
     },
     {
       "chunk_id": "chunk_00011",
       "chunk_index": 11,
       "text_preview": "custom names to the hierarchy levels of the TM1 dimension by using the }HierarchyProperties control cube. The named levels you create can then be used when you externally access TM1 data with IBM Cogn",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 11,
@@ -190,16 +190,16 @@
         "start_word": 11000,
         "end_word": 12500,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:30.831616"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:48.972816"
       }
     },
     {
       "chunk_id": "chunk_00012",
       "chunk_index": 12,
       "text_preview": "HierarchyDimensionElementInsert('dimension', 'hierarchy2, 'element', 'c'); ``` For detailed information on supported TI and cube rule functions, see TM1 Reference . ## Creating Cubes You can always cr",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 12,
@@ -207,16 +207,16 @@
         "start_word": 12100,
         "end_word": 13600,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:35.158808"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:49.269825"
       }
     },
     {
       "chunk_id": "chunk_00013",
       "chunk_index": 13,
       "text_preview": "ADMIN group to optimize the order of dimensions in cubes. The optimization option is only available for cubes on remote servers; you cannot optimize the order of dimensions in cubes on a local server.",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 13,
@@ -224,16 +224,16 @@
         "start_word": 13200,
         "end_word": 14700,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:39.556297"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:49.568569"
       }
     },
     {
       "chunk_id": "chunk_00014",
       "chunk_index": 14,
       "text_preview": "pick list with a null value following value4 . ## Subset Pick Lists A subset pick list contains values corresponding to all elements of a named subset. If the members of the subset change, the values ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 14,
@@ -241,16 +241,16 @@
         "start_word": 14300,
         "end_word": 15800,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:44.228344"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:49.878000"
       }
     },
     {
       "chunk_id": "chunk_00015",
       "chunk_index": 15,
       "text_preview": "rule statement indicates that any cell identified by the element fabric will display a pick list composed of all elements in the materials dimension. | 32 IBM Planning Analytics : TM1 for Developers #",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 15,
@@ -258,16 +258,16 @@
         "start_word": 15400,
         "end_word": 16900,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:48.534518"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:50.167361"
       }
     },
     {
       "chunk_id": "chunk_00016",
       "chunk_index": 16,
       "text_preview": "pane, then click Show Invariant Names . ## The Caption attribute The Caption attribute can be set up as an Alias type or as a Text type. When the Caption attribute is an Alias type, the attribute valu",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 16,
@@ -275,16 +275,16 @@
         "start_word": 16500,
         "end_word": 18000,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:53.448926"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:50.505803"
       }
     },
     {
       "chunk_id": "chunk_00017",
       "chunk_index": 17,
       "text_preview": "you want to translate, insert an AttrPutS function for each language that you want to make available on your TM1 server. For example, if you want to display the January member in French, German, and P",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 17,
@@ -292,16 +292,16 @@
         "start_word": 17600,
         "end_word": 19100,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:32:58.157795"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:50.836589"
       }
     },
     {
       "chunk_id": "chunk_00018",
       "chunk_index": 18,
       "text_preview": "for Formulas A rules formula is an expression composed of: - Numeric constants - Arithmetic operators and parentheses - Numeric and string functions -- see TM1 Reference . - Conditional logic - Cube r",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 18,
@@ -309,16 +309,16 @@
         "start_word": 18700,
         "end_word": 20200,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:03.337664"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:51.171652"
       }
     },
     {
       "chunk_id": "chunk_00019",
       "chunk_index": 19,
       "text_preview": "France | 5 | 2 | 2 | | Germany | 10 | 2 | 2 | | United States | 5 | 6 | 6 | TM1 processes the rule statements as follows: - The first statement assigns the value 10 to the Germany, Year1 cell. The fir",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 19,
@@ -326,16 +326,16 @@
         "start_word": 19800,
         "end_word": 21300,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:07.969277"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:51.508730"
       }
     },
     {
       "chunk_id": "chunk_00020",
       "chunk_index": 20,
       "text_preview": "C: Level Elements with Rules You should avoid writing a rule that overrides a consolidated value that is a component of another consolidation. A simple example illustrates this issue. Suppose you have",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 20,
@@ -343,16 +343,16 @@
         "start_word": 20900,
         "end_word": 22400,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:12.518222"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:51.833884"
       }
     },
     {
       "chunk_id": "chunk_00021",
       "chunk_index": 21,
       "text_preview": "You can share values between cubes by using the DB rules function. Values are stored in one cube and referenced in other cubes. The following example shows how rules for one cube can reference values ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 21,
@@ -360,16 +360,16 @@
         "start_word": 22000,
         "end_word": 23500,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:17.623960"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:52.164383"
       }
     },
     {
       "chunk_id": "chunk_00022",
       "chunk_index": 22,
       "text_preview": "Quarter cell: ``` ['Price']=DB('PriceCube',!actvsbud,!region,!model,!month); ``` This statement is appropriate only for N: level cells, such as Price, Jan. Consolidated Price values should be calculat",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 22,
@@ -377,16 +377,16 @@
         "start_word": 23100,
         "end_word": 24600,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:22.533123"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:52.500071"
       }
     },
     {
       "chunk_id": "chunk_00023",
       "chunk_index": 23,
       "text_preview": "source that exceeds the maximum amount of memory that TM1 can allocate when you access a view. By default, the memory threshold for the MaximumViewSize parameter in the Tm1s.cfg file is 100MB on a 32-",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 23,
@@ -394,16 +394,16 @@
         "start_word": 24200,
         "end_word": 25700,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:27.534849"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:52.829483"
       }
     },
     {
       "chunk_id": "chunk_00024",
       "chunk_index": 24,
       "text_preview": "the quarterly level. By drilling through to the relational source, you can view the underlying detail for the cube data. ## Setting Up the ODBC Data Source The example in this section drills through t",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 24,
@@ -411,16 +411,16 @@
         "start_word": 25300,
         "end_word": 26800,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:33.018829"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:53.163091"
       }
     },
     {
       "chunk_id": "chunk_00025",
       "chunk_index": 25,
       "text_preview": "Count - The total number of times the rule statement has run. - Min Time - The minimum amount of time taken for the rule statement to run, in milliseconds. - Max Time - The maximum amount of time take",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 25,
@@ -428,16 +428,16 @@
         "start_word": 26400,
         "end_word": 27900,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:38.122618"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:53.503949"
       }
     },
     {
       "chunk_id": "chunk_00026",
       "chunk_index": 26,
       "text_preview": "Double-click T Series 2.8L Coupe in the Trace pane. You are now tracing the value of SalesCube(Actual, Germany, T Series, Sales, 1Quarter) through T Series 2.8L Coupe. The Tracing Calculation pane now",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 26,
@@ -445,16 +445,16 @@
         "start_word": 27500,
         "end_word": 29000,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:42.891343"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:53.830522"
       }
     },
     {
       "chunk_id": "chunk_00027",
       "chunk_index": 27,
       "text_preview": "on the TM1 server. You must update the file on the server to make the changes available. An application can contain links to any web pages or resources that use the HTTP or HTTPS protocol. ## URLs ## ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 27,
@@ -462,16 +462,16 @@
         "start_word": 28600,
         "end_word": 30100,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:47.480390"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:54.150252"
       }
     },
     {
       "chunk_id": "chunk_00028",
       "chunk_index": 28,
       "text_preview": "selected and ready to be edited. 3. Type a new name for the application. 4. Press ENTER . ## Deleting Applications You can delete any application, public or private, to which you have ADMIN privilege.",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 28,
@@ -479,16 +479,16 @@
         "start_word": 29700,
         "end_word": 31200,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:51.796696"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:54.465681"
       }
     },
     {
       "chunk_id": "chunk_00029",
       "chunk_index": 29,
       "text_preview": "insert a new reference to the (now) public view or subset. ## Simultaneously Creating a New Object and Adding a Reference to an Application You can create an IBM Cognos TM1 object from within an appli",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 29,
@@ -496,16 +496,16 @@
         "start_word": 30800,
         "end_word": 32300,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:33:56.270044"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:54.777921"
       }
     },
     {
       "chunk_id": "chunk_00030",
       "chunk_index": 30,
       "text_preview": "application file in TM1 Web, the hyperlink must include the TM1 assigned name for the uploaded file. For details, see 'Creating Hyperlinks to Uploaded Files' on page 82. ## Updating Excel Files on the",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 30,
@@ -513,16 +513,16 @@
         "start_word": 31900,
         "end_word": 33400,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:00.759879"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:55.093424"
       }
     },
     {
       "chunk_id": "chunk_00031",
       "chunk_index": 31,
       "text_preview": "have to directly correspond to source object names. | | Property | Description | |-------------|--------------------------------------------------------------------------------------------------------",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 31,
@@ -530,16 +530,16 @@
         "start_word": 33000,
         "end_word": 34500,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:05.260117"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:55.407831"
       }
     },
     {
       "chunk_id": "chunk_00032",
       "chunk_index": 32,
       "text_preview": "with the reference is NONE. In this scenario, members of the user group will not be able to see the reference in an application. For example, if a user group is assigned NONE privilege for a cube, but",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 32,
@@ -547,16 +547,16 @@
         "start_word": 34100,
         "end_word": 35600,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:10.013241"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:55.730771"
       }
     },
     {
       "chunk_id": "chunk_00033",
       "chunk_index": 33,
       "text_preview": "file to a TM1 application, a copy of the file is saved on the IBM Cognos TM1 server and the file name is appended with a data and time stamp. For example: Report\\_2006.xls\\_20070123212746.xls If you d",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 33,
@@ -564,16 +564,16 @@
         "start_word": 35200,
         "end_word": 36700,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:15.232006"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:56.068797"
       }
     },
     {
       "chunk_id": "chunk_00034",
       "chunk_index": 34,
       "text_preview": "The selection dialog box opens. 4. Select the source cube, data source or input file and click OK . For example, for an input file, select price.cma file in your \\install\\_dir\\PData directory. For an ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 34,
@@ -581,16 +581,16 @@
         "start_word": 36300,
         "end_word": 37800,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:19.943893"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:56.396567"
       }
     },
     {
       "chunk_id": "chunk_00035",
       "chunk_index": 35,
       "text_preview": "the Element Type list. 6. Click Add . The Name element now opens as a string element. 7. Click OK . 8. Click Edit , Save and save the dimension as RegName. ## Creating the Translate Cube Follow these ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 35,
@@ -598,16 +598,16 @@
         "start_word": 37400,
         "end_word": 38900,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:25.019701"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:56.736031"
       }
     },
     {
       "chunk_id": "chunk_00036",
       "chunk_index": 36,
       "text_preview": "Data Source into a Cube After you create a processing worksheet, you can process data into a cube. If you have been completing the exercises in this section, you know that the PriceProcessing workshee",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 36,
@@ -615,16 +615,16 @@
         "start_word": 38500,
         "end_word": 40000,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:29.697009"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:57.057735"
       }
     },
     {
       "chunk_id": "chunk_00037",
       "chunk_index": 37,
       "text_preview": "| | Read | Dimension | Members of the group can see the elements in a dimension, but cannot add, remove, or reorder the elements. | | Read | Process | Members of the group can see the process in the S",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 37,
@@ -632,16 +632,16 @@
         "start_word": 39600,
         "end_word": 41100,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:33.976810"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:57.349435"
       }
     },
     {
       "chunk_id": "chunk_00038",
       "chunk_index": 38,
       "text_preview": "for Cubes Follow these steps to assign security rights for a cube. ## Procedure 1. Open the Server Explorer. 2. Select the Cubes icon for the server you are working with. 3. Click Cubes , Security Ass",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 38,
@@ -649,16 +649,16 @@
         "start_word": 40700,
         "end_word": 42200,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:38.409719"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:57.669292"
       }
     },
     {
       "chunk_id": "chunk_00039",
       "chunk_index": 39,
       "text_preview": "Control Cube Follow these steps to create a cell security control cube. 9} CellSecurity\\_SalesCube ## Procedure to display the sec 1. In TM1 Architect or TM1 Perspectives, right-click on the cube for ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 39,
@@ -666,16 +666,16 @@
         "start_word": 41800,
         "end_word": 43300,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:42.893714"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:57.976496"
       }
     },
     {
       "chunk_id": "chunk_00040",
       "chunk_index": 40,
       "text_preview": "to a chore that includes Process1, the group can execute Process1 from the chore. ## Assigning Security Rights for Processes Follow these steps to assign security rights for a process. ## Procedure 1.",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 40,
@@ -683,16 +683,16 @@
         "start_word": 42900,
         "end_word": 44400,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:47.345668"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:58.294003"
       }
     },
     {
       "chunk_id": "chunk_00041",
       "chunk_index": 41,
       "text_preview": "image --> ## Adding an Action Button to a Worksheet You can insert an Action button into any empty cell in a worksheet using the following steps. ## Procedure 1. In Excel, select an empty cell in your",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 41,
@@ -700,16 +700,16 @@
         "start_word": 44000,
         "end_word": 45500,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:51.800395"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:58.596297"
       }
     },
     {
       "chunk_id": "chunk_00042",
       "chunk_index": 42,
       "text_preview": "Use the Select a Cell dialog box to select the cell in your worksheet where the parameter value can be found. <!-- image --> ## Use an Excel Reference to Retrieve the Parameter Values If you selected ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 42,
@@ -717,16 +717,16 @@
         "start_word": 45100,
         "end_word": 46600,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:34:56.148622"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:58.891676"
       }
     },
     {
       "chunk_id": "chunk_00043",
       "chunk_index": 43,
       "text_preview": "target worksheet. When the Match Title Elements option is enabled, the dimensions in the source and target worksheets are automatically matched by the TM1 SUBNM and DBRW functions as follows: - TM1 au",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 43,
@@ -734,16 +734,16 @@
         "start_word": 46200,
         "end_word": 47700,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:00.502430"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:59.208026"
       }
     },
     {
       "chunk_id": "chunk_00044",
       "chunk_index": 44,
       "text_preview": "performed on the target worksheet. ## Setting the Appearance Properties of an Action Button Use the Appearance tab to set the caption, background picture, and other visual features for the Action butt",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 44,
@@ -751,16 +751,16 @@
         "start_word": 47300,
         "end_word": 48800,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:04.709380"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:59.492420"
       }
     },
     {
       "chunk_id": "chunk_00045",
       "chunk_index": 45,
       "text_preview": "might contain the value C3 to represent the cell location for the Target Object in the target worksheet. Repeat all of the above steps to create more mapping configurations. ## Example of Mapping a So",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 45,
@@ -768,16 +768,16 @@
         "start_word": 48400,
         "end_word": 49900,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:09.261453"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:46:59.802883"
       }
     },
     {
       "chunk_id": "chunk_00046",
       "chunk_index": 46,
       "text_preview": "you to configure the Data Reservation feature depending on how you want to control write-access to your data. When you enable the Data Reservation feature for a cube, you choose one of the available D",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 46,
@@ -785,16 +785,16 @@
         "start_word": 49500,
         "end_word": 51000,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:13.822595"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:00.104571"
       }
     },
     {
       "chunk_id": "chunk_00047",
       "chunk_index": 47,
       "text_preview": "processes and chores You should understand the following considerations when using Data Reservation and also running interactive (nonscheduled) and scheduled TurboIntegrator (TI) chores/processes: Som",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 47,
@@ -802,16 +802,16 @@
         "start_word": 50600,
         "end_word": 52100,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:18.409056"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:00.412614"
       }
     },
     {
       "chunk_id": "chunk_00048",
       "chunk_index": 48,
       "text_preview": "for one of the available Data Reservation modes at the intersection of the DataReservationMode element (property) and the cube name to enable the Data Reservation feature for that cube. ## DataReserva",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 48,
@@ -819,16 +819,16 @@
         "start_word": 51700,
         "end_word": 53200,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:23.452931"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:00.744413"
       }
     },
     {
       "chunk_id": "chunk_00049",
       "chunk_index": 49,
       "text_preview": "Set the Object Type field to Cube . 4. Set the Event drop-down list to one of the Data Reservation event types. 5. Run the query. ## Using TurboIntegrator and API functions to monitor Data Reservation",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 49,
@@ -836,16 +836,16 @@
         "start_word": 52800,
         "end_word": 54300,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:29.369155"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:01.096832"
       }
     },
     {
       "chunk_id": "chunk_00050",
       "chunk_index": 50,
       "text_preview": "owners as follows: User1, User1, User2 and the request specifies an owner of User2 then an index of 1 will retrieve the third member of the list. ## Example ``` CubeDataReservationGet(1,'DRTestCube','",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 50,
@@ -853,16 +853,16 @@
         "start_word": 53900,
         "end_word": 55400,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:35.409594"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:01.438461"
       }
     },
     {
       "chunk_id": "chunk_00051",
       "chunk_index": 51,
       "text_preview": "IBM Cognos TM1 cube. The client parameter is optional. If it is not supplied (the parameter is set to TM1ObjectNull), then all the DRs on the cube are returned. If the client parameter is supplied, th",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 51,
@@ -870,16 +870,16 @@
         "start_word": 55000,
         "end_word": 56500,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:40.930597"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:01.780448"
       }
     },
     {
       "chunk_id": "chunk_00052",
       "chunk_index": 52,
       "text_preview": "| | Additional information | The GrantSecurityAccess property must be set for this TurboIntegrator process to succeed. Creates the default global security overlay cube. Global overlays apply to all us",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 52,
@@ -887,16 +887,16 @@
         "start_word": 56100,
         "end_word": 57600,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:46.544099"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:02.120532"
       }
     },
     {
       "chunk_id": "chunk_00053",
       "chunk_index": 53,
       "text_preview": "- param0= TM1\\_Admin\\_host - param1= TM1\\_server\\_name - param2= username - param3= password For example: param0=localhost&amp;param1=SData&amp;param2=admin&amp;param3=apple If you are using IBM Cogno",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 53,
@@ -904,16 +904,16 @@
         "start_word": 57200,
         "end_word": 58700,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:53.145128"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:02.461051"
       }
     },
     {
       "chunk_id": "chunk_00054",
       "chunk_index": 54,
       "text_preview": "\"localhost\" }); dialog.show(); ``` ## Construction The LoginDialog module accepts several parameters for construction. ## onLogin Callback when login succeeds. An object that contains session informat",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 54,
@@ -921,16 +921,16 @@
         "start_word": 58300,
         "end_word": 59800,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:35:59.319506"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:02.805215"
       }
     },
     {
       "chunk_id": "chunk_00055",
       "chunk_index": 55,
       "text_preview": "parameters, see the following topics: - 'Using the Action parameter with TM1 Web objects' on page 153. - 'Using the Open parameter to open a TM1 Web object' on page 153. - 'Applying parameters and act",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 55,
@@ -938,16 +938,16 @@
         "start_word": 59400,
         "end_word": 60900,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:36:05.158971"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:03.153234"
       }
     },
     {
       "chunk_id": "chunk_00056",
       "chunk_index": 56,
       "text_preview": "post the information to the Cognos TM1 Web server. Make sure your form includes &lt;input&gt; fields with the following names. The field names and their related values are submitted to the Cognos TM1 ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 56,
@@ -955,16 +955,16 @@
         "start_word": 60500,
         "end_word": 62000,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:36:11.522939"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:03.496239"
       }
     },
     {
       "chunk_id": "chunk_00057",
       "chunk_index": 57,
       "text_preview": "// Get a reference to an existing iframe that has this ID webSheet = document.getElementById(\"websheetId\"); // Assemble the URL and assign it to the iframe webSheet.src = baseUrl + \"#Action=Open&Type=",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 57,
@@ -972,16 +972,16 @@
         "start_word": 61600,
         "end_word": 63100,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:36:18.347884"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:03.845356"
       }
     },
     {
       "chunk_id": "chunk_00058",
       "chunk_index": 58,
       "text_preview": "paste the following URL into the address bar of the same web browser session. http://localhost:9510/tm1web/UrlApi.jsp#Title\\_plan\\_version=FY 2003 Budget 3. Copy and paste only the parameter to the en",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 58,
@@ -989,16 +989,16 @@
         "start_word": 62700,
         "end_word": 64200,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:36:25.182778"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:04.203451"
       }
     },
     {
       "chunk_id": "chunk_00059",
       "chunk_index": 59,
       "text_preview": "is used to mark the beginning of the parameters in examples. ## URL API AccessType parameter The AccessType parameter specifies the public or private status of the cube view that you want to display. ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 59,
@@ -1006,16 +1006,16 @@
         "start_word": 63800,
         "end_word": 65300,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:36:32.366706"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:04.554112"
       }
     },
     {
       "chunk_id": "chunk_00060",
       "chunk_index": 60,
       "text_preview": "Web API session login' on page 141. ## Example http://localhost:9510/tm1web/ UrlApi.jsp#Action=Open&amp;Type=WebSheet&amp;Workbook=Applications/Planning Sample/Bottom Up Input/Budget Input&amp;AdminHo",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 60,
@@ -1023,16 +1023,16 @@
         "start_word": 64900,
         "end_word": 66400,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:36:41.371442"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:04.905130"
       }
     },
     {
       "chunk_id": "chunk_00061",
       "chunk_index": 61,
       "text_preview": "following example shows a complete configuration. ``` <!DOCTYPE html> <html> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <script src=\"path/to/the/1.10/version/o",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 61,
@@ -1040,16 +1040,16 @@
         "start_word": 66000,
         "end_word": 67500,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:36:48.697133"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:05.279203"
       }
     },
     {
       "chunk_id": "chunk_00062",
       "chunk_index": 62,
       "text_preview": "yourSessionToken \", cube: \"plan_BudgetPlan\", view: \"Budget Input Detailed\", isPublic: true, onLoad: function() { console.debug(\"CubeViewer loaded successfully.\"); }, onTitleDimensionElementChange: fun",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 62,
@@ -1057,16 +1057,16 @@
         "start_word": 67100,
         "end_word": 68600,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:36:54.533530"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:05.620121"
       }
     },
     {
       "chunk_id": "chunk_00063",
       "chunk_index": 63,
       "text_preview": "that represents the widget. This property is automatically defined during object construction and should not be provided during instantiation. Type: HTMLElement For more information, see Dojo document",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 63,
@@ -1074,16 +1074,16 @@
         "start_word": 68200,
         "end_word": 69700,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:36:59.391998"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:05.957673"
       }
     },
     {
       "chunk_id": "chunk_00064",
       "chunk_index": 64,
       "text_preview": "Integer ## columnIndex The zero-based index of the column that contains the SUBNM cell for the dimension element that you want to change. Do not use this parameter with the dimension parameter. Type: ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 64,
@@ -1091,16 +1091,16 @@
         "start_word": 69300,
         "end_word": 70800,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:04.438966"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:06.292375"
       }
     },
     {
       "chunk_id": "chunk_00065",
       "chunk_index": 65,
       "text_preview": "by using a session token. ``` function loadCubeview() { require([ \" tm1web/api/CubeViewer \" ], function( CubeViewer ) { var loadedCubeview = new CubeViewer ({ sessionToken: \" yourSessionToken \", cube:",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 65,
@@ -1108,16 +1108,16 @@
         "start_word": 70400,
         "end_word": 71900,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:09.464568"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:06.619803"
       }
     },
     {
       "chunk_id": "chunk_00066",
       "chunk_index": 66,
       "text_preview": "that match the format of the subset objects that are passed into this method for the subsets that are successfully set. ## titleDimensionElement Parameter: element object. The title dimension element ",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 66,
@@ -1125,16 +1125,16 @@
         "start_word": 71500,
         "end_word": 73000,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:14.332094"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:06.932886"
       }
     },
     {
       "chunk_id": "chunk_00067",
       "chunk_index": 67,
       "text_preview": "RATE | Returns the interest rate per period of an annuity. | | SLN | Returns the straight-line depreciation of an asset for one period. | | SYD | Returns the sum-of-years' digits depreciation of an as",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 67,
@@ -1142,16 +1142,16 @@
         "start_word": 72600,
         "end_word": 74100,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:19.398474"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:07.256889"
       }
     },
     {
       "chunk_id": "chunk_00068",
       "chunk_index": 68,
       "text_preview": "see if two text values are identical. | | FIND | Finds one text value within another (case-sensitive). | | FIXED | Formats a number as text with a fixed number of decimals. | | LEFT | Returns the left",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 68,
@@ -1159,16 +1159,16 @@
         "start_word": 73700,
         "end_word": 75200,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:24.354194"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:07.567597"
       }
     },
     {
       "chunk_id": "chunk_00069",
       "chunk_index": 69,
       "text_preview": "a sample of selected database entries. | | DSTDEVP | Calculates the standard deviation based on the entire population of selected database entries. | | DSUM | Adds the numbers in the field column of r",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 69,
@@ -1176,16 +1176,16 @@
         "start_word": 74800,
         "end_word": 76300,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:29.494494"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:07.897651"
       }
     },
     {
       "chunk_id": "chunk_00070",
       "chunk_index": 70,
       "text_preview": "Returns the transpose of an array. | ## Math and Trigonometric Functions This table lists the math and trigonometric functions that are not supported in TM1 Web. | Function | Description | |----------",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 70,
@@ -1193,16 +1193,16 @@
         "start_word": 75900,
         "end_word": 77400,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:34.750499"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:08.233917"
       }
     },
     {
       "chunk_id": "chunk_00071",
       "chunk_index": 71,
       "text_preview": "implied warranties in certain transactions, therefore, this statement may not apply to you. This information could include technical inaccuracies or typographical errors. Changes are periodically made",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 71,
@@ -1210,16 +1210,16 @@
         "start_word": 77000,
         "end_word": 78500,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:40.598550"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:08.590681"
       }
     },
     {
       "chunk_id": "chunk_00072",
       "chunk_index": 72,
       "text_preview": "single dimension 10 versus rules 11 constants rules formulas 41 control cubes }PickList 31 cube admin access privilege 95 as lookup tables 88 assigning access privileges 99 creating 27 creating cube d",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 72,
@@ -1227,16 +1227,16 @@
         "start_word": 78100,
         "end_word": 79600,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:47.063829"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:08.926496"
       }
     },
     {
       "chunk_id": "chunk_00073",
       "chunk_index": 73,
       "text_preview": "overview 1 | overview 1 | | multiple consolidation paths 26 | multiple consolidation paths 26 | multiple consolidation paths 26 | multiple consolidation paths 26 | multiple consolidation paths 26 | mu",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 73,
@@ -1244,16 +1244,16 @@
         "start_word": 79200,
         "end_word": 80700,
         "word_count": 1500,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:37:53.263051"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:09.268054"
       }
     },
     {
       "chunk_id": "chunk_00074",
       "chunk_index": 74,
       "text_preview": "| | overview 39 pick lists 32 | | Rules Tracer | | 63 | | versus consolidations formulas | | rules arithmetic operators comparing expressions | | 11 41 | | 42 comparsion operators 42 conditional logic",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 74,
@@ -1261,16 +1261,16 @@
         "start_word": 80300,
         "end_word": 81483,
         "word_count": 1183,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:38:01.312304"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:09.607489"
       }
     },
     {
       "chunk_id": "chunk_00075",
       "chunk_index": 75,
       "text_preview": "parameters Action 162 AccessType 161, 165 AdminHost 163 ChartType 164 AutoRecalc 163 Cube 164 HideToolbar 166 HideDimensionBar 165 TM1Server 166 Type 167 TM1SessionId 166 View 167 Workbook 167 ## V va",
-      "embedding_dimension": 2560,
+      "embedding_dimension": 768,
       "metadata": {
         "document": "documents/tm1_dg_dvlpr-10pages.pdf",
         "chunk_index": 75,
@@ -1278,9 +1278,9 @@
         "start_word": 81400,
         "end_word": 81483,
         "word_count": 83,
-        "embedding_model": "qwen3-embedding:4b",
-        "embedding_dimension": 2560,
-        "processed_at": "2025-10-26T21:38:01.814182"
+        "embedding_model": "embeddinggemma:300m",
+        "embedding_dimension": 768,
+        "processed_at": "2025-10-29T11:47:09.713731"
       }
     }
   ],
