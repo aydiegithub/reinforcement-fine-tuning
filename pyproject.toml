@@ -1,0 +1,33 @@
+[project]
+name = "rft-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "colorama>=0.4.6",
+  "datasets>=3.6.0",
+  "docling>=2.58.0",
+  "langflow>=1.6.5",
+  "litellm>=1.77.1",
+  "peft>=0.17.1",
+  "pydantic>=2.10.6",
+  "transformers>=4.57.1",
+  "trl>=0.24.0",
+  "bitsandbytes>=0.42.0",
+  "sentece-transformers",
+  "chromadb",
+]
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu130" },
+]
+torchvision = [
+  { index = "pytorch-cu130" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

@@ -1,0 +1,1 @@
+FROM ./merged_model_for_ollama
