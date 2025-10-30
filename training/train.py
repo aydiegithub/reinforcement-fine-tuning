@@ -98,7 +98,7 @@ def main():
         train_dataset=train_dataset,
         args=SFTConfig(
             output_dir=OUTPUT_DIR, 
-            num_train_epochs=50
+            num_train_epochs=20
             # save_steps=1000,
         ),
         peft_config=peft_config,
